@@ -1,8 +1,10 @@
 import { AnimatePresence } from 'framer-motion';
 import { Route, Routes } from 'react-router-dom';
-import { routes, TRoute } from '@/routes/routes';
-import Page from '@/components/Layout/Page';
+
 import NotFound from '@/routes/NotFound';
+import { TRoute, routes } from '@/routes/routes';
+
+import Page from '@/components/Layout/Page';
 
 function App() {
   return (

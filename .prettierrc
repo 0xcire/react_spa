@@ -1,5 +1,9 @@
 {
   "singleQuote": true,
   "jsxSingleQuote": true,
-  "printWidth": 80
+  "printWidth": 80,
+  "importOrder": ["^@/routes/(.*)$", "^@components/(.*)$", "^[@/]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "plugins": ["prettier-plugin-tailwindcss"]
 }

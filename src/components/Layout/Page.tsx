@@ -1,5 +1,5 @@
-import { Suspense } from 'react';
 import Nav from '@/components/NavBar';
+import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 
 const Page = () => {
